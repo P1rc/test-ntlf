@@ -14,7 +14,7 @@ export const App = () => {
 
     return (
         <div style={{ textAlign: 'center', marginTop: '50px' }}>
-            <h1 style={{ color: 'pink' }}>Counter: {count}</h1>
+            <h1 style={{ color: 'cyan' }}>Counter: {count}</h1>
             <div>
                 <button onClick={increment} style={buttonStyle}>+1</button>
             </div>
